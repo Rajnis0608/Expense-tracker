@@ -8,9 +8,9 @@ const NewExpense = (props) => {
         const expenseData = {
             ...enteredExpenseData,
             id: Math.random().toString()
-        }
+        };
         props.onAddExpense(expenseData);
-    }
+    };
 
     return(
         <div className="new-expense">
